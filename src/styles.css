@@ -1,0 +1,28 @@
+/* Add some basic styling for better presentation */
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
